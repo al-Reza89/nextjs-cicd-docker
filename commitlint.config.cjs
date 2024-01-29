@@ -40,6 +40,8 @@
 
 module.exports = {
   extends: [],
+
+  // custom commitlint rules
   rules: {
     'header-min-length': [2, 'always', 20],
     'header-case-start-capital': [2, 'always'],
