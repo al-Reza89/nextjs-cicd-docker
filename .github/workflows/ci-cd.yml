@@ -41,7 +41,7 @@ jobs:
       - name: Verify Commit Message
         uses: wagoid/commitlint-github-action@v3
         with:
-          configFile: commitlint.config.js
+          configFile: commitlint.config.cjs
 
       # build docker image for ci cd pipeline
       - name: Build Docker Image
